@@ -4,76 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .page{
-            height: 100vh;
-            border: 2px solid black;
-            display: flex;
-            justify-content:space-evenly;
-            align-items: center;
-            background-repeat:no-repeat ;
-            background-size: cover;
-            border: 2px solid black;
-
-        }
-        .format{
-            padding: 10px;
-            width: 325px;
-            background-color: white;
-            border: 2px solid black;
-        }
-        .formitem{
-            padding: 10px;
-            border: 2px solid black;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-
-        }
-
-        
-    </style>
+    <link rel="stylesheet" href="./signup css.css">
 </head>
 <body>
-    
-    <div class="page">
-        <form action="">
-            <div class="format">
-            <h1>Instragram</h1>
-            <br>
-    
-            <div class="formitem">
-                <label form="username"></label>
-                <input type="text"id="username" placeholder="phone number, username,or email">
-               </div>
-               <br>
-            <div class="formitem">
-                <label form="password"></label>
-                <input type="password"id="password" placeholder="password">
-               </div>
-               <br>
-               <div class="formitem">
-               <button>Log in</button></div>
-               <br>
-               <div class="formitem">OR</div>
-               <div class="formitem"><a href="">Log in with Facebook</a> </div>
-               <br>
-              <div class="formitem"><a href="">Forgot password</a></div>
-               </div>
-            </div>  
+    <div class="form-holder">
+    <form action="">
+        <h1>LOGIN PAGE</h1>
+        <hr>
         <br>
-        <div class="formet"></div>
-        <div>DOn't have an account?<a href="">sign up</a></div>  
-        </form>
-        </form>
-    
-    </body>
-    </html>
 
+        <div class="formitem">
+         <label form="email">EMAIL</label>
+         <input type="email"id="email">
+        </div>
+
+        <div class="formitem">
+            <label form="password">PASSWORD</label>
+            <input type="password"id="password">
+           </div>
+
+           <div class="formitem">
+           <button>LOGIN</button>
+           </div>
+
+           <div class="formitem">
+           <a href="./pass.html">Forgot password ?</a>
+           </div>
+    </div>    
+    </form>
+    </form>
 
 </body>
 </html>
